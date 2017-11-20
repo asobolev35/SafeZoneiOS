@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB101C5AE3DBE1B0F00F0C1 /* Pods_att2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83383CD68FCE1B02F0C41DD8 /* Pods_att2UITests.framework */; };
 		684D0E6F1FBCB5FA00A55755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D0E6E1FBCB5FA00A55755 /* AppDelegate.swift */; };
 		684D0E711FBCB5FA00A55755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D0E701FBCB5FA00A55755 /* ViewController.swift */; };
 		684D0E741FBCB5FA00A55755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684D0E721FBCB5FA00A55755 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		684D0E791FBCB5FA00A55755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684D0E771FBCB5FA00A55755 /* LaunchScreen.storyboard */; };
 		684D0E841FBCB5FA00A55755 /* att2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D0E831FBCB5FA00A55755 /* att2Tests.swift */; };
 		684D0E8F1FBCB5FA00A55755 /* att2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D0E8E1FBCB5FA00A55755 /* att2UITests.swift */; };
+		684D0E9D1FBCB6EC00A55755 /* LocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D0E9C1FBCB6EC00A55755 /* LocationPoint.swift */; };
+		684D0EA01FBCB73B00A55755 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684D0E9F1FBCB73B00A55755 /* MapKit.framework */; };
+		687323D41FC230A700A44030 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687323D31FC230A700A44030 /* SearchViewController.swift */; };
+		A66AF909259FD78B3E14FE42 /* Pods_att2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC02B69AEA1238522229691 /* Pods_att2Tests.framework */; };
+		C47C5C83F30BCEACD86B0F28 /* Pods_att2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A012574C08B72B360AA50F9F /* Pods_att2.framework */; };
+		FA55D13D1FC2559400561983 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA55D13C1FC2559400561983 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19A13D915AEC1D2B5CE0DD0B /* Pods-att2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-att2/Pods-att2.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC02B69AEA1238522229691 /* Pods_att2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_att2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C881E15F19B606CF18BDC1 /* Pods-att2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-att2Tests/Pods-att2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		45780A4412F11CAFEDF8BB40 /* Pods-att2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-att2UITests/Pods-att2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		684D0E6B1FBCB5FA00A55755 /* att2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = att2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		684D0E6E1FBCB5FA00A55755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		684D0E701FBCB5FA00A55755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		684D0E8A1FBCB5FA00A55755 /* att2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = att2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		684D0E8E1FBCB5FA00A55755 /* att2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = att2UITests.swift; sourceTree = "<group>"; };
 		684D0E901FBCB5FA00A55755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684D0E9C1FBCB6EC00A55755 /* LocationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPoint.swift; sourceTree = "<group>"; };
+		684D0E9F1FBCB73B00A55755 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		687323D31FC230A700A44030 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		83383CD68FCE1B02F0C41DD8 /* Pods_att2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_att2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1963C5D9F4795AAD891B8 /* Pods-att2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-att2UITests/Pods-att2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		98FD9146AEDA6080648D1379 /* Pods-att2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-att2Tests/Pods-att2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A012574C08B72B360AA50F9F /* Pods_att2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_att2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70B0A97272C6050B2EE3544 /* Pods-att2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-att2.release.xcconfig"; path = "Pods/Target Support Files/Pods-att2/Pods-att2.release.xcconfig"; sourceTree = "<group>"; };
+		FA55D13C1FC2559400561983 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684D0EA01FBCB73B00A55755 /* MapKit.framework in Frameworks */,
+				C47C5C83F30BCEACD86B0F28 /* Pods_att2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66AF909259FD78B3E14FE42 /* Pods_att2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB101C5AE3DBE1B0F00F0C1 /* Pods_att2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,8 @@
 				684D0E821FBCB5FA00A55755 /* att2Tests */,
 				684D0E8D1FBCB5FA00A55755 /* att2UITests */,
 				684D0E6C1FBCB5FA00A55755 /* Products */,
+				684D0E9E1FBCB73B00A55755 /* Frameworks */,
+				C98495DC86049DF8E2BE406D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,9 @@
 				684D0E751FBCB5FA00A55755 /* Assets.xcassets */,
 				684D0E771FBCB5FA00A55755 /* LaunchScreen.storyboard */,
 				684D0E7A1FBCB5FA00A55755 /* Info.plist */,
+				684D0E9C1FBCB6EC00A55755 /* LocationPoint.swift */,
+				FA55D13C1FC2559400561983 /* GoogleService-Info.plist */,
+				687323D31FC230A700A44030 /* SearchViewController.swift */,
 			);
 			path = att2;
 			sourceTree = "<group>";
@@ -125,6 +154,30 @@
 			path = att2UITests;
 			sourceTree = "<group>";
 		};
+		684D0E9E1FBCB73B00A55755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684D0E9F1FBCB73B00A55755 /* MapKit.framework */,
+				A012574C08B72B360AA50F9F /* Pods_att2.framework */,
+				2EC02B69AEA1238522229691 /* Pods_att2Tests.framework */,
+				83383CD68FCE1B02F0C41DD8 /* Pods_att2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98495DC86049DF8E2BE406D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A13D915AEC1D2B5CE0DD0B /* Pods-att2.debug.xcconfig */,
+				A70B0A97272C6050B2EE3544 /* Pods-att2.release.xcconfig */,
+				98FD9146AEDA6080648D1379 /* Pods-att2Tests.debug.xcconfig */,
+				38C881E15F19B606CF18BDC1 /* Pods-att2Tests.release.xcconfig */,
+				45780A4412F11CAFEDF8BB40 /* Pods-att2UITests.debug.xcconfig */,
+				88B1963C5D9F4795AAD891B8 /* Pods-att2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 684D0E931FBCB5FA00A55755 /* Build configuration list for PBXNativeTarget "att2" */;
 			buildPhases = (
+				59245DE3ABFF8770FE818445 /* [CP] Check Pods Manifest.lock */,
 				684D0E671FBCB5FA00A55755 /* Sources */,
 				684D0E681FBCB5FA00A55755 /* Frameworks */,
 				684D0E691FBCB5FA00A55755 /* Resources */,
+				1A8B75ED8DBD7A1474976D4E /* [CP] Embed Pods Frameworks */,
+				6CDE03C20BA4BEE5A21F8534 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 684D0E961FBCB5FA00A55755 /* Build configuration list for PBXNativeTarget "att2Tests" */;
 			buildPhases = (
+				8B7A26D994B5EF258EE37487 /* [CP] Check Pods Manifest.lock */,
 				684D0E7B1FBCB5FA00A55755 /* Sources */,
 				684D0E7C1FBCB5FA00A55755 /* Frameworks */,
 				684D0E7D1FBCB5FA00A55755 /* Resources */,
+				5EE9B5A2AE3363CBD66634DB /* [CP] Embed Pods Frameworks */,
+				5DE84C128F4DF609017B8C0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 684D0E991FBCB5FA00A55755 /* Build configuration list for PBXNativeTarget "att2UITests" */;
 			buildPhases = (
+				6F4187CDA48ECC39923ECD66 /* [CP] Check Pods Manifest.lock */,
 				684D0E861FBCB5FA00A55755 /* Sources */,
 				684D0E871FBCB5FA00A55755 /* Frameworks */,
 				684D0E881FBCB5FA00A55755 /* Resources */,
+				524EC30FFDBFA7968995736D /* [CP] Embed Pods Frameworks */,
+				EB54DB2CE3C727B0EF685DA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +255,16 @@
 				TargetAttributes = {
 					684D0E6A1FBCB5FA00A55755 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CW67QXRY9P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					684D0E7E1FBCB5FA00A55755 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -233,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				684D0E791FBCB5FA00A55755 /* LaunchScreen.storyboard in Resources */,
+				FA55D13D1FC2559400561983 /* GoogleService-Info.plist in Resources */,
 				684D0E761FBCB5FA00A55755 /* Assets.xcassets in Resources */,
 				684D0E741FBCB5FA00A55755 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +326,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A8B75ED8DBD7A1474976D4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2/Pods-att2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524EC30FFDBFA7968995736D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2UITests/Pods-att2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59245DE3ABFF8770FE818445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE84C128F4DF609017B8C0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2Tests/Pods-att2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE9B5A2AE3363CBD66634DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2Tests/Pods-att2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CDE03C20BA4BEE5A21F8534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2/Pods-att2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4187CDA48ECC39923ECD66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7A26D994B5EF258EE37487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB54DB2CE3C727B0EF685DA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-att2UITests/Pods-att2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		684D0E671FBCB5FA00A55755 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				684D0E711FBCB5FA00A55755 /* ViewController.swift in Sources */,
+				684D0E9D1FBCB6EC00A55755 /* LocationPoint.swift in Sources */,
+				687323D41FC230A700A44030 /* SearchViewController.swift in Sources */,
 				684D0E6F1FBCB5FA00A55755 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +624,10 @@
 		};
 		684D0E941FBCB5FA00A55755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A13D915AEC1D2B5CE0DD0B /* Pods-att2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW67QXRY9P;
 				INFOPLIST_FILE = att2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wustl.att2;
@@ -424,8 +638,10 @@
 		};
 		684D0E951FBCB5FA00A55755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70B0A97272C6050B2EE3544 /* Pods-att2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW67QXRY9P;
 				INFOPLIST_FILE = att2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wustl.att2;
@@ -436,6 +652,7 @@
 		};
 		684D0E971FBCB5FA00A55755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FD9146AEDA6080648D1379 /* Pods-att2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +667,7 @@
 		};
 		684D0E981FBCB5FA00A55755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C881E15F19B606CF18BDC1 /* Pods-att2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +682,7 @@
 		};
 		684D0E9A1FBCB5FA00A55755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45780A4412F11CAFEDF8BB40 /* Pods-att2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = att2UITests/Info.plist;
@@ -477,6 +696,7 @@
 		};
 		684D0E9B1FBCB5FA00A55755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B1963C5D9F4795AAD891B8 /* Pods-att2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = att2UITests/Info.plist;
@@ -507,6 +727,7 @@
 				684D0E951FBCB5FA00A55755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		684D0E961FBCB5FA00A55755 /* Build configuration list for PBXNativeTarget "att2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +736,7 @@
 				684D0E981FBCB5FA00A55755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		684D0E991FBCB5FA00A55755 /* Build configuration list for PBXNativeTarget "att2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +745,7 @@
 				684D0E9B1FBCB5FA00A55755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

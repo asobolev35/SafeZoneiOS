@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>464237571910-8to9tqii0980ltghb7rguepde2l6lc1f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.464237571910-8to9tqii0980ltghb7rguepde2l6lc1f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBW_3gNwb0yfZEC24oAOv7-hksoXmu-t00</string>
+	<key>GCM_SENDER_ID</key>
+	<string>464237571910</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wustl.att2</string>
+	<key>PROJECT_ID</key>
+	<string>safezone-e3141</string>
+	<key>STORAGE_BUCKET</key>
+	<string>safezone-e3141.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:464237571910:ios:a1abbc0964ce0b2a</string>
+	<key>DATABASE_URL</key>
+	<string>https://safezone-e3141.firebaseio.com</string>
+</dict>
+</plist>
